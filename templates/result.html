@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio File Results</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .result-container {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .result-text {
+            color: #3498db;
+            margin-bottom: 16px;
+            font-size: 30px;
+        }
+        .result-head {
+            color: #3498db;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio File Results</h1>
+
+    <div class="result-container">
+        <p class="result-head">Emotion detected in the uploaded audio file:</p>
+        <!-- Display your specific results here -->
+        <p class="result-text">{{ emo }}</p>
+    </div>
+</body>
+</html>
